@@ -12,6 +12,7 @@ export const AsideLogin = styled.aside`
     font-weight: 900;
     letter-spacing: 5px;
     box-shadow: 2px 0px 9px rgba(0, 0, 0, 0.5);
+    position: relative;
     p{
         display: inline-block;
         &:nth-child(even){
@@ -23,4 +24,15 @@ export const AsideLogin = styled.aside`
 
 export const UttText = styled.div`
     width: calc(100% + 18%);
+    position: relative;
+    z-index: 1;
 `;
+
+export const Overlay = styled.div`
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.05);
+    z-index: 2;
+    top: 0;
+`

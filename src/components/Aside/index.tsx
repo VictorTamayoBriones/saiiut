@@ -1,4 +1,4 @@
-import { AsideLogin, UttText } from "./styled";
+import { AsideLogin, Overlay, UttText } from "./styled";
 
 export const Aside = () =>{
 
@@ -15,6 +15,7 @@ export const Aside = () =>{
             <UttText>
                 {utt.map((i:number)=><p key={i} >UTT</p>)}
             </UttText>
+            <Overlay/>
         </AsideLogin>
     )
 }
