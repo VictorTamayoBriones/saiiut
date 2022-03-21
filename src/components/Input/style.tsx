@@ -21,4 +21,7 @@ export const InputBox = styled.div`
             border: solid 1px ${ theme.verde };
         }
     }
+    p{
+        color: red;
+    }
 `;
