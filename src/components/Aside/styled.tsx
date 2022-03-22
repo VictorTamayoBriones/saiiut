@@ -20,12 +20,26 @@ export const AsideLogin = styled.aside`
         }
     }
     -webkit-text-stroke: 1px ${ theme.blanco };
+    @media(max-width: 552px){
+        display: none;
+    }
 `
 
 export const UttText = styled.div`
     width: calc(100% + 18%);
     position: relative;
     z-index: 1;
+    @media(max-width: 1200px){
+        p{
+            font-size: 50px;
+        }
+    }
+
+    @media(max-width: 670px){
+        p{
+            font-size: 40px;
+        }
+    }
 `;
 
 export const Overlay = styled.div`

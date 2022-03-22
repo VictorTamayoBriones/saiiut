@@ -24,4 +24,7 @@ export const InputBox = styled.div`
     p{
         color: red;
     }
+    @media(max-width: 552px){
+        width: 85%;
+    }
 `;
